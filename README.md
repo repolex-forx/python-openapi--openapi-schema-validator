@@ -1,1 +1,127 @@
-Initializing
+# Repolex Knowledge Graph of python-openapi/openapi-schema-validator
+
+RDF knowledge graph data for [python-openapi/openapi-schema-validator](https://github.com/python-openapi/openapi-schema-validator), parsed by [repolex](https://repolex.ai).
+
+> **Note**: This data is experimental and subject to change without notice.
+
+## How to use this data
+
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
+
+```bash
+cargo install --git https://github.com/repolex-ai/rlex
+```
+
+Verify the install:
+
+```bash
+rlex --help
+```
+
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
+
+To load this repo's data:
+
+```bash
+rlex download python-openapi/openapi-schema-validator
+```
+
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
+
+## Data structure
+
+All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) (`.nq.gz`), a standard RDF format that can be loaded into any triplestore or graph database.
+
+```
+.
+├── aggregate
+│   ├── ast
+│   │   └── 005e0804dd853714e6ddd8d6e8c808266df6a3c1
+│   │       └── chunk-001.nq.gz
+│   └── repolex
+│       └── 005e0804dd853714e6ddd8d6e8c808266df6a3c1
+│           └── chunk-001.nq.gz
+├── blob
+│   ├── 103b16be624a12320a81c2b38f08fa78bd36df1c.nq.gz
+│   ├── 15589108a46af5b9587227560dbce1916b87300e.nq.gz
+│   ├── 18f33c7bbd364a4cffd5f2f1883182524514be8e.nq.gz
+│   ├── 1f5d7cb61c6170d98d0d3a4afaa4daa90d3f97bf.nq.gz
+│   ├── 2119f51099bf37e4fdb6071dce9f451ea44c62dd.nq.gz
+│   ├── 2279856add34e2b4e0506036005d8ef0a6c3e828.nq.gz
+│   ├── 29ad297c0e39d381cd250507733f483e8ad09cc5.nq.gz
+│   ├── 319192cc6be83ee4dd1819906e001054909be945.nq.gz
+│   ├── 3415e1ab0ae3c722f3bd18c2a1da22faa1927773.nq.gz
+│   ├── 35d404187c4a398a0556ee3898a320f812832e94.nq.gz
+│   ├── 3e572ddae5ac51d85ae1c35cfff2009b00ccf975.nq.gz
+│   ├── 409fe4573f8ea76b8ed064d9a36b8330a8644570.nq.gz
+│   ├── 4432c9b5eaa5c16c50dc0826b12337f419657163.nq.gz
+│   ├── 44e3843a73f27244ac3b25bc61138f6de9221ab4.nq.gz
+│   ├── 46589c7a5c1000d59bb2230272a1bf8ac6569630.nq.gz
+│   ├── 60a9c7fd70b5a46c98369725a48a06e7a1655599.nq.gz
+│   ├── 645c171aad40d7fb10be706f385db00e0d898e48.nq.gz
+│   ├── 6a0d81781989e511a78559d3ebf91fe09904b022.nq.gz
+│   ├── 6ac954de1cb150aea3da877ec23515a370374aff.nq.gz
+│   ├── 6d0bf57ea0d8bc152fb585a64c53d234a810c741.nq.gz
+│   ├── 6f3ebdc460f44e482eb29c481db8b09ef54a0075.nq.gz
+│   ├── 7e3a3d2e5fe24a833c82178c4dbab24e72859c44.nq.gz
+│   ├── 7ebe467adb545094b4b6d7eb15605110d41b6117.nq.gz
+│   ├── 907b8034c06d64a35a07bd0486023dbb99e1cb2a.nq.gz
+│   ├── 90adab3774325ff003dc2539d346a5c995e9741a.nq.gz
+│   ├── 98b681df5d75408880eafe3ac0edf37bbc2a98fc.nq.gz
+│   ├── 9b2ab0e024ba5a96e2a83608eafa1a63b8786f56.nq.gz
+│   ├── 9e3b351e79bf44c5bfd8bd3727a38fbdf99410cc.nq.gz
+│   ├── a3c3251bd096c7ef3137461476264c8b8e314d35.nq.gz
+│   ├── a4544d194b2702a70017672b46bdcb5725f8f00a.nq.gz
+│   ├── a7a59f1c7d13581a4948526f5563b1c018fd088e.nq.gz
+│   ├── abec15e6a5973f5910915862ca910f087f1dff88.nq.gz
+│   ├── b4dfde96d41ed702b27d167f896c0aee58b18ef3.nq.gz
+│   ├── b67293948c16e6f3beb7e264b25ba994fd97a526.nq.gz
+│   ├── b684226acc36f6e87e6dfaef8ba7b4847f4d694f.nq.gz
+│   ├── be32321acfab232a0358b7218f748cd5ea0cfdb6.nq.gz
+│   ├── c95164efc3a8bfd102e4a663a934ecf1145777da.nq.gz
+│   ├── ca60da321d90ef13a7806ed794b3a799ad45eac0.nq.gz
+│   ├── dad3dd408b4bb1b1cf43283dc47438b12bc4664b.nq.gz
+│   ├── de0cffb667b6224e0340b11d8d0e0071868f7828.nq.gz
+│   ├── df50e024c3f10722a7d040571c2e1fc99ce8ebc9.nq.gz
+│   ├── e2148de29f9a7dfcbecfb5d949c627d3c473690a.nq.gz
+│   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
+│   ├── eae8386e8ad35aaf1a3e45740a97b995e9d76987.nq.gz
+│   ├── f301ed06fec0af24aabaa380c7ca69fc5ba302f6.nq.gz
+│   ├── f54241831628a37a26d1034f677b4993454fea4f.nq.gz
+│   ├── f7a4de90a37062e1353d79811a9697a4a1430eb5.nq.gz
+│   └── fda19fa6df17b935acff372cc958ecfedc397abd.nq.gz
+├── branch
+│   └── branch.nq.gz
+├── commit
+│   └── commit.nq.gz
+├── filetree
+│   └── 005e0804dd853714e6ddd8d6e8c808266df6a3c1.nq.gz
+├── issue
+│   └── issue.nq.gz
+├── pr
+│   └── pr.nq.gz
+└── tag
+    └── tag.nq.gz
+
+13 directories, 56 files
+```
+
+| Directory | What it contains |
+|-----------|-----------------|
+| `blob/` | Per-file AST graphs, content-addressed by git blob SHA. Each file in the source repo gets its own graph. |
+| `aggregate/ast/` | Combined AST graph per parsed commit. Merges all blob graphs for a snapshot of the entire codebase at that point. |
+| `aggregate/lsp/` | Language Server Protocol enrichment: resolved symbols, definitions, references, and type information. |
+| `aggregate/dataflow/` | Interprocedural data flow edges between functions and modules. |
+| `aggregate/repolex/` | Combined graph (AST + LSP + dataflow) per commit. |
+| `commit/` | Git commit metadata (author, date, message, parent links). |
+| `branch/` | Branch metadata. |
+| `tag/` | Tag metadata. |
+| `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
+
+## Source repository
+
+[python-openapi/openapi-schema-validator](https://github.com/python-openapi/openapi-schema-validator)
+
+---
+*Parsed on 2026-10-12 by [repolex](https://repolex.ai)*

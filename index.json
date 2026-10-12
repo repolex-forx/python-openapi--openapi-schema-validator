@@ -1,0 +1,11 @@
+{
+  "org": "python-openapi",
+  "repo": "openapi-schema-validator",
+  "versions": [
+    {
+      "commit": "005e0804dd853714e6ddd8d6e8c808266df6a3c1",
+      "tag": "",
+      "parsed_at": "2026-10-12T22:02:32.074432+00:00"
+    }
+  ]
+}
