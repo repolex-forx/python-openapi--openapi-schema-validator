@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/python-openapi/openapi-schema-validator/commit/005e0804dd853714e6ddd8d6e8c808266df6a3c1",
       "git:hexsha": "005e0804dd853714e6ddd8d6e8c808266df6a3c1",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T22:02:32.022035+00:00"
     },
     {
       "@id": "https://repolex.ai/r/python-openapi/openapi-schema-validator/commit/cd19f8e0f3f625dbeb95c17e036dad725b4c61b3",
